@@ -11,3 +11,5 @@ XMCoordinator组件：以protocol的方式对外提供服务；
 3. 所有的其它组件外提供服务的protocol都用XMCoordinator类的Category去实现，而且protocol提供的方法都是“+”方法
 4. 每个protocol及其方法都要写好详细的注释
 5. 具体protocol实现方法和XMCoordinator用法可参考[DemoModule](/DemoModule/Classes/Service)和[AppDelegate.m](/Demo/AppDelegate.m)
+
+## 下载本项目，运行pod install即可查看效果
